@@ -1,58 +1,184 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="root">
+    <div class="ellipse2">
+      <img class="icon" src="path/to/ellipse-image.png" alt="Ellipse 2" />
+    </div>
+    <div class="theAnswerIsInTheFoldersYouWill">
+      The answer is in the folders you will find...
+    </div>
+    <div class="rectangle2"></div>
+    <div class="rectangle3"></div>
+    <div class="whereDoIFindTheInformationOnVe">
+      Where do I find the information on Vue?
+    </div>
+    <div class="askMeAnything">Ask me anything!</div>
+    <div class="vector">
+      <img class="icon2" src="path/to/vector-image.png" alt="Vector" />
+    </div>
+    <div class="ellipse1">
+      <img class="icon3" src="path/to/ellipse1-image.png" alt="Ellipse 1" />
+    </div>
+    <div class="bCHAi">BCHAI</div>
+    <div class="mascot"></div>
+    <div class="profile"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  name: 'MyComponent',
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+/* The CSS you provided, scoped to this component */
+.root {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.ellipse2 {
+  position: absolute;
+  left: 462px;
+  top: 78px;
+  width: 102px;
+  height: 95px;
+  overflow: visible;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.icon {
+  width: 100%;
+  height: 100%;
 }
-a {
-  color: #42b983;
+
+.theAnswerIsInTheFoldersYouWill {
+  color: #043258;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 527px;
+  top: 313px;
+  width: 368px;
+  height: 39px;
+  flex-direction: column;
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 445px;
+  top: 871px;
+  width: 550px;
+  height: 57px;
+  border-radius: 20px;
+  background-color: #d4f2ff;
+}
+
+.rectangle3 {
+  position: absolute;
+  left: 590px;
+  top: 173px;
+  width: 405px;
+  height: 81px;
+  border-radius: 20px;
+  background-color: #d4f2ff;
+}
+
+.whereDoIFindTheInformationOnVe {
+  color: #043258;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 616px;
+  top: 194px;
+  width: 368px;
+  height: 39px;
+  flex-direction: column;
+}
+
+.askMeAnything {
+  color: #043258;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 516px;
+  top: 889px;
+  width: 323px;
+  height: 39px;
+  flex-direction: column;
+}
+
+.vector {
+  position: absolute;
+  left: 32.0833%;
+  right: 65.5556%;
+  top: 86.6211%;
+  bottom: 11.2305%;
+  overflow: visible;
+}
+
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+
+.ellipse1 {
+  position: absolute;
+  left: 462px;
+  top: 309px;
+  width: 46px;
+  height: 46px;
+  overflow: visible;
+}
+
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+
+.bCHAi {
+  color: #043258;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 551px;
+  top: 105px;
+  width: 338px;
+  height: 58px;
+  flex-direction: column;
+}
+
+.mascot {
+  position: absolute;
+  left: 469px;
+  top: 312px;
+  width: 32px;
+  height: 40px;
+  border-radius: 10px;
+  background-image: url('@/assets/mascot.png'); /* Use @ to reference src/assets */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  position: absolute;
+  left: 454px;
+  top: 66px;
+  width: 96px;
+  height: 103px;
+  background-image: url('@/assets/profile.png'); /* Use @ to reference src/assets */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
