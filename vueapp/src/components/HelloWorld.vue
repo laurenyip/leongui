@@ -1,23 +1,16 @@
 <template>
   <div class="root">
-    <div class="ellipse2">
-      <img class="icon" src="path/to/ellipse-image.png" alt="Ellipse 2" />
-    </div>
-    <div class="theAnswerIsInTheFoldersYouWill">
-      The answer is in the folders you will find...
-    </div>
-    <div class="rectangle2"></div>
-    <div class="rectangle3"></div>
-    <div class="whereDoIFindTheInformationOnVe">
-      Where do I find the information on Vue?
-    </div>
-    <div class="askMeAnything">Ask me anything!</div>
+    <!-- Your HTML content goes here -->
+
+    <div class="leonbox">The answer is in the folders you will find...</div>
+    <div class="userblue"></div>
+    <div class="newblue"></div>
+    <div class="userbox">Where do I find the information on Vue?</div>
+    <div class="newbox">Ask me anything!</div>
     <div class="vector">
-      <img class="icon2" src="path/to/vector-image.png" alt="Vector" />
+      <img class="icon2" src="@/assets/clip.png" alt="Clip" />
     </div>
-    <div class="ellipse1">
-      <img class="icon3" src="path/to/ellipse1-image.png" alt="Ellipse 1" />
-    </div>
+
     <div class="bCHAi">BCHAI</div>
     <div class="mascot"></div>
     <div class="profile"></div>
@@ -26,7 +19,7 @@
 
 <script>
 export default {
-  name: 'MyComponent',
+  name: "MyComponent",
 };
 </script>
 
@@ -56,11 +49,11 @@ export default {
   height: 100%;
 }
 
-.theAnswerIsInTheFoldersYouWill {
+.leonbox {
   color: #043258;
   font-size: 16px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 527px;
   top: 313px;
@@ -69,7 +62,7 @@ export default {
   flex-direction: column;
 }
 
-.rectangle2 {
+.userblue {
   position: absolute;
   left: 445px;
   top: 871px;
@@ -79,7 +72,7 @@ export default {
   background-color: #d4f2ff;
 }
 
-.rectangle3 {
+.newblue {
   position: absolute;
   left: 590px;
   top: 173px;
@@ -89,11 +82,11 @@ export default {
   background-color: #d4f2ff;
 }
 
-.whereDoIFindTheInformationOnVe {
+.userbox {
   color: #043258;
   font-size: 16px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 616px;
   top: 194px;
@@ -102,11 +95,11 @@ export default {
   flex-direction: column;
 }
 
-.askMeAnything {
+.newbox {
   color: #043258;
   font-size: 16px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 516px;
   top: 889px;
@@ -147,8 +140,8 @@ export default {
   color: #043258;
   font-size: 28px;
   font-weight: 500;
-  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 551px;
   top: 105px;
@@ -164,7 +157,7 @@ export default {
   width: 32px;
   height: 40px;
   border-radius: 10px;
-  background-image: url('@/assets/mascot.png'); /* Use @ to reference src/assets */
+  background-image: url("@/assets/mascot.png"); /* Use @ to reference src/assets */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,7 +169,7 @@ export default {
   top: 66px;
   width: 96px;
   height: 103px;
-  background-image: url('@/assets/profile.png'); /* Use @ to reference src/assets */
+  background-image: url("@/assets/profile.png"); /* Use @ to reference src/assets */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
